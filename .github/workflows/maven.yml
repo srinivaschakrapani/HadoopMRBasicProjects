@@ -31,3 +31,5 @@ jobs:
       run: mvn -B package --file numbers-sum/pom.xml
     - name: Build with Maven word-count-mr
       run: mvn -B package --file word-count-mr/pom.xml
+    - name: Build with Maven file-content-join-mr
+      run: mvn -B package --file ile-content-join-mr/pom.xml
